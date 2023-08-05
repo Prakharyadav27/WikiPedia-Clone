@@ -14,8 +14,8 @@
 
 <body>
     <div class="navbar">
-        <div class="button"><i class="fa-solid fa-bars"></i></div>
         <div class="logo">
+            <div class="button"><i class="fa-solid fa-bars"></i></div>
             <img id="main" src="./assets/wikipedia.png" alt="" srcset="">
             <div class="logo-text">
                 <img src="./assets/wikipedia-wordmark-en.svg" alt="">
@@ -25,6 +25,7 @@
 
         <div class="searchbox">
             <form action="#">
+                <i class="fa-solid fa-magnifying-glass"></i>
                 <input type="text" placeholder="Search Wikipedia">
                 <button type="submit">Search</button>
             </form>
@@ -35,8 +36,27 @@
             <i class="fa-solid fa-ellipsis"></i>
         </div>
     </div>
-    <div class="sidebar"></div>
-    <div class="main-content"></div>
+    <div class="content">
+        <div class="sidebar">
+            <p> Contents[<a href="#">hide</a>]</p>
+            <hr>
+            <div class="headings">
+                <h4>(Top)</h4>
+                <p><a href=""> Plot</a></p>
+                <p><a href="">Cast</a></p>
+                <p><i class="fa-solid fa-chevron-right"></i> <a href="">Production</a></p>
+                <p><a href="">Release</a></p>
+                <p><i class="fa-solid fa-chevron-right"></i> <a href="">Marketing</a></p>
+                <p><a href="">Music</a></p>
+                <p><i class="fa-solid fa-chevron-right"></i> <a href="">Reception</a></p>
+                <p><i class="fa-solid fa-chevron-right"></i> <a href="">Sequel</a></p>
+                <p><a href="">See also</a></p>
+                <p><a href="">Notes</a></p>
+                <p><a href="">Reference Links</a></p>
+            </div>
+        </div>
+        <div class="main-content"></div>
+    </div>
 </body>
 
 </html>

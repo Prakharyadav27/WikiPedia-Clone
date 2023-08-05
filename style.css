@@ -2,6 +2,7 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
+font-family: sans-serif;
 
 }
 
@@ -11,18 +12,24 @@ html, body{
 }
 
 .navbar{
+    height: 70px;
     display: flex;
-    background-color: pink;
     align-items: center;
-    justify-content: flex-start;
+   position: relative;
+   left: 30px;
+
 }
 
 .navbar .button{
-    font-size: 20px;
+    font-size: 23px;
+padding: 0px 20px;
+    
 }
 
 .navbar .logo {
     display: flex;
+    align-items: center;
+    justify-content: flex-start;
 }
 .navbar .logo #main{
     height: 60px;
@@ -33,6 +40,84 @@ html, body{
 .navbar .logo .logo-text{
     width: 120px;
     height: 36px;
+    margin: 0 20px;
    
 }
 
+.searchbox form{
+height: 35px;
+width: 500px;
+background: #fff;
+display: flex;
+margin: 0 40px;
+}
+
+form i{
+    position: absolute;
+    padding: 6px 14px;
+   font-size: 20px;
+   color: #72777D;
+
+}
+
+form input{
+    flex: 1;
+    border: 1px solid #72777D;
+    padding: 0 0 0 40px;
+    outline: none;
+    font-size: 16px;
+    
+}
+form button{
+    background: transparent;
+    padding: 10px 10px;
+    border: 1px solid #72777D;
+    font-weight: 570;
+    font-size: 15px;
+    border-left: none;
+    outline: none;
+    cursor: pointer;
+    color: #202122;
+
+}
+
+.end-buttons a{
+    font-size: 16px;
+    padding: 0px 0px 0px 10px;
+    color: #297EDA;
+}
+
+.end-buttons i{
+    padding-left:20px ;
+}
+.content{
+    display: flex;
+}
+
+.sidebar{
+    height: 100vh;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    align-items: center;
+    margin: 50px 0;
+}
+.main-content{
+  background-color: #297EDA;
+    height: 100vh;
+    flex:1;
+}
+
+.headings{
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-start;
+}
+
+.sidebar hr{
+    width: 200px;
+    margin: 10px 0 0 0 ;
+}
